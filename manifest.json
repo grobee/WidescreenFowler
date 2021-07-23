@@ -1,0 +1,10 @@
+{
+  "name": "WidescreenFowler",
+  "description": "Makes the text readable by making martinfowler.com centered on widescreen displays.",
+  "version": "0.1.0",
+  "manifest_version": 3,
+  "content_scripts": [{
+    "matches": ["https://martinfowler.com/*"],
+    "js": ["centerText.js"]
+  }]
+}
